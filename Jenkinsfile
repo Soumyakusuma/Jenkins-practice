@@ -11,7 +11,7 @@ pipeline{
             steps{
                 script{
                     sh """
-                    echo "Hello Build"
+                    echo "Hello Build this is $COURSE"
                     env
                     """
                 }
